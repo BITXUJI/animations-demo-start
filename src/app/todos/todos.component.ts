@@ -10,7 +10,8 @@ import { Component } from '@angular/core';
       transition('void => *', [
         style({ opacity: 0 }),
         animate(2000)
-      ])
+      ]),
+      transition('* => void', animate(2000, style({ opacity: 0 })))
     ])
   ]
 })
