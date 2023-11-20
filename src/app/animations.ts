@@ -4,4 +4,4 @@ export let fade = trigger('fade', [
     transition(':enter,:leave', [
         animate(2000)
     ])
-])
+]);
