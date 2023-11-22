@@ -19,7 +19,7 @@ import { animate, query, style, transition, trigger, useAnimation } from '@angul
       transition(':enter', [
         useAnimation(fadeInAnimation, {
           params: {
-            duration: '500ms'
+            duration: '1000ms'
           }
         })
       ]),
