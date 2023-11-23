@@ -9,7 +9,9 @@
     >
     </span>
   </div>
-  <div *ngIf="isOpen" class="zippy-content">
+  <div 
+    [@expandCollapse]="isOpen ? 'expanded' :'collapsed'" 
+    class="zippy-content">
     <ng-content></ng-content>
   </div>
 </div>
