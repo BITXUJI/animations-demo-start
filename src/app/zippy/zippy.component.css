@@ -1,0 +1,22 @@
+.zippy-container {
+    border: 1px solid #ddd;
+    margin: 5px 0;
+}
+
+.zippy-title {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.zippy-content {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.arrow {
+    font-size: 16px;
+}

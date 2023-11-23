@@ -1,0 +1,15 @@
+<div class="zippy-container">
+  <div class="zippy-title" (click)="toggleContent()">
+    {{ title }}
+    <span class="fa"
+    [ngClass]="{
+        'fa-chevron-up':isOpen,
+        'fa-chevron-down':!isOpen
+    }"
+    >
+    </span>
+  </div>
+  <div *ngIf="isOpen" class="zippy-content">
+    <ng-content></ng-content>
+  </div>
+</div>
